@@ -34,6 +34,7 @@ Ayrıca, kullanıcıların kendi özgeçmişlerini yönetmelerine olanak tanırk
 ![10](https://github.com/tahacakmakk/MyEgitimAkademi_Portfolio/assets/147727764/0abe10f7-d06f-422a-946f-0930585a57c6)
 ![11](https://github.com/tahacakmakk/MyEgitimAkademi_Portfolio/assets/147727764/af12edf7-bcc9-46e3-ae21-f60da3776f30)
 ![12](https://github.com/tahacakmakk/MyEgitimAkademi_Portfolio/assets/147727764/b6c5f7e5-7caf-4280-a851-a14fc5d8b6bd)
+![21](https://github.com/tahacakmakk/MyEgitimAkademi_Portfolio/assets/147727764/7865d687-5640-47c2-93b4-d1a34094103b)
 ![13](https://github.com/tahacakmakk/MyEgitimAkademi_Portfolio/assets/147727764/7e3c3b03-9166-46e2-be36-664100f1ba3e)
 ![14](https://github.com/tahacakmakk/MyEgitimAkademi_Portfolio/assets/147727764/6beb1e67-8778-4a21-8ef0-e9be34607f92)
 ![15](https://github.com/tahacakmakk/MyEgitimAkademi_Portfolio/assets/147727764/b006da4c-1664-4bdc-87fa-1b14fe786c7a)
