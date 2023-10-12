@@ -23,7 +23,8 @@ Ayrıca, kullanıcıların kendi özgeçmişlerini yönetmelerine olanak tanırk
 - Web uygulamasının geliştirilmesi ve bakımı için ASP.NET MVC ve Entity Framework kullanır.
 # Görseller
 ![Ekran görüntüsü 2023-10-12 161636](https://github.com/tahacakmakk/MyEgitimAkademi_Portfolio/assets/147727764/fe570e5a-40c8-4a5e-85d3-328e9ca3b309)
-![Ekran görüntüsü 2023-10-12 160851](https://github.com/tahacakmakk/MyEgitimAkademi_Portfolio/assets/147727764/6648e06d-d104-4624-9218-8ba662434e2f)
+![Ekran görüntüsü 2023-10-12 160851](https://github.com/tahacakmakk/MyEgitimAkademi_Portfolio/assets/147727764/06b85c08-7412-46b4-87b8-8aed1d9c335d)
+
 ![Ekran görüntüsü 2023-10-12 160910](https://github.com/tahacakmakk/MyEgitimAkademi_Portfolio/assets/147727764/daeda407-4636-4a5b-869d-aea00ddd48e7)
 ![Ekran görüntüsü 2023-10-12 160925](https://github.com/tahacakmakk/MyEgitimAkademi_Portfolio/assets/147727764/65aecf24-c6bd-4bfe-a9b8-1926961bd160)
 ![Ekran görüntüsü 2023-10-12 160937](https://github.com/tahacakmakk/MyEgitimAkademi_Portfolio/assets/147727764/b947f5a0-0461-47c2-b39f-e3df9d8e65ee)
