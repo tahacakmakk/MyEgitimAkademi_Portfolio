@@ -1,0 +1,45 @@
+﻿@model List<MyEgitimAkademi_Portfolio.Models.Skill>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<h2>Yeteneklerim</h2>
+
+<table class="table  table-hover">
+    <thead>
+
+    <tr>
+        <th>#</th>
+        <th>Yetenek Adı</th>
+        <th>Derece</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        count++;
+        <tbody>
+
+        <tr>
+            <td>@count</td>
+            <td>@item.SkillTitle</td>
+            <td>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                     aria-valuemin="0" aria-valuemax="100" style="width:@item.SkillValue%">
+                    @item.SkillValue%
+                </div>
+            </div>
+            </td>
+            <td><a href="/Skill/DeleteSkill/@item.SkillID" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Skill/UpdateSkill/@item.SkillID" class="btn btn-info">Güncelle</a></td>
+        </tr>
+        </tbody>
+    }
+
+</table>
+
+<a href="/Skill/AddSkill/" class="btn btn-outline-success">Yeni Yetenek Ekle</a>

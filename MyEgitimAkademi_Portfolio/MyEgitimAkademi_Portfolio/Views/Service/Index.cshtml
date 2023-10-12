@@ -1,0 +1,32 @@
+﻿@model List<MyEgitimAkademi_Portfolio.Models.Service>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<h2>Hizmetlerim </h2>
+
+<table   class="table table-hover">
+    <thead>
+    <tr >
+        <th> Hizmet ID</th>
+        <th>Hizmet Adı </th>
+        <th class="text-center">Hizmet Sil</th>
+        <th class="text-center">Hizmet Güncelle</th>
+    </tr>
+    </thead>
+        @foreach (var item in Model)
+        {
+            count++;
+            <tbody>
+            <tr >
+                <td>@count</td>
+                <td>@item.ServiceName</td>
+                <td class="text-center"><a href="/Service/DeleteService/@item.ServiceId"class="btn btn-outline-danger" style="min-width: 40%"><i class="fa fa-delete"></i> Sil</a></td>
+                <td class="text-center" ><a href="/Service/ListService/@item.ServiceId"class="btn btn-outline-info text-center" style="min-width: 40%">Güncelle</a></td>
+            </tr>
+            </tbody>
+        } 
+</table>
+<a href="/Service/AddService/" class="btn btn-outline-success"> Yeni Hizmet Ekle</a>

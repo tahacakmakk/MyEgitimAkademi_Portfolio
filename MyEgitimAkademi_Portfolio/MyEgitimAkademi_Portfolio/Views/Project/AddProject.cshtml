@@ -1,0 +1,27 @@
+﻿@model MyEgitimAkademi_Portfolio.Models.Project
+@{
+    ViewBag.Title = "AddProject";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2> Proje Ekle</h2>
+
+<form method="post" class="form-group">
+    <label> Proje Adı</label>
+    <input type="text" class="form-control" name="Title">
+    <br />
+    <label> Proje Kategorisi</label>
+    <input type="text" class="form-control" name="ProjectCategory">
+    <br />
+    <label> Tamamlanma Günü</label>
+    <input type="text" class="form-control" name="CompleteDay">
+    <br />
+    <label> Proje Fiyatı</label>
+    <input type="text" class="form-control" name="Price">
+    <br />
+    <label> Açıklama</label>
+    <textarea class="form-control" rows="5" name="Description"></textarea>
+    <button class="btn btn-outline-success mt-3">Ekle</button>
+</form>
+
+

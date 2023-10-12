@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>İstatistik Sayfası</h2>
+<div class="row custom-card">
+    
+    <div class="card text-white bg-secondary mb-3 col-md-3">
+        <div class="card-header">Toplam Referans Sayısı:</div>
+        <div class="card-body">
+            <h2 class="card-text  text-white text-center"> @ViewBag.totalTestimonialCount</h2>
+        </div>
+    </div>
+    <div class="card text-white bg-dark mb-3 col-md-3">
+        <div class="card-header">Toplam Çalışma Günü:</div>
+        <div class="card-body">
+            <h2 class="card-text text-white  text-center"> @ViewBag.sumWorkDay</h2>
+        </div>
+    </div>
+    <div class="card text-white bg-success mb-3 col-md-3">
+        <div class="card-header">Ortalama Proje Bitiş Günü :</div>
+        <div class="card-body">
+            <h2 class="card-text text-white  text-center"> @ViewBag.avgWorkDay</h2>
+        </div>
+    </div>    
+    <div class="card text-white bg-warning mb-3 col-md-3">
+        <div class="card-header">Ortalama Proje Fiyatı: </div>
+        <div class="card-body">
+            <h2 class="card-text text-white  text-center"> @ViewBag.avgPriceFormatted ₺</h2>
+        </div>
+    </div>    
+    <div class="card text-white bg-primary mb-3 col-md-3">
+        <div class="card-header text-white">En Yüksek Fiyatlı Proje:</div>
+        <div class="card-body">
+            <h2 class="card-text text-white text-center" > @ViewBag.maxPriceProject</h2>
+        </div>
+    </div>    
+    <div class="card text-white bg-info mb-3 col-md-3">
+        <div class="card-header">.Net Kategori Sayısı:</div>
+        <div class="card-body text-white">
+            <h2 class="card-text text-white text-center"> @ViewBag.categoryCountName</h2>
+        </div>
+    </div>
+
+
+</div>

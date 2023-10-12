@@ -1,0 +1,21 @@
+﻿@model MyEgitimAkademi_Portfolio.Models.Skill
+@{
+    ViewBag.Title = "UpdateSkill";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yetenek Güncelle</h2>
+
+@using (Html.BeginForm("UpdateSkill", "Skill", FormMethod.Post))
+{
+    @Html.HiddenFor(x => x.SkillID)
+    <div class="form-group">
+        <label>Yetenek Adı</label>
+        @Html.TextBoxFor(x => x.SkillTitle, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Yetenek Derecesi</label>
+        @Html.TextBoxFor(x => x.SkillValue, new { @class = "form-control" })
+    </div>
+    <button class="btn btn-outline-info"> Kaydet</button>
+}

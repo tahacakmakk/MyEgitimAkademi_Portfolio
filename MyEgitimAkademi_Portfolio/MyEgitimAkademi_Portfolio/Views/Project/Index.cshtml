@@ -1,0 +1,40 @@
+﻿@model List<MyEgitimAkademi_Portfolio.Models.Project>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<h2>Projelerim</h2>
+
+<table class="table  table-hover">
+    <thead>
+
+    <tr>
+        <th>#</th>
+        <th>Proje Adı</th>
+        <th>Kategori</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        <th>GitHub da Gör</th>
+    </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        count++;
+
+        <tbody>
+        <tr>
+            <th>@count</th>
+            <td>@item.Title</td>
+            <td>@item.Category.CategoryName</td>
+            <td><a href="/Project/DeleteProject/@item.ProjectID" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Project/UpdateProject/@item.ProjectID" class="btn btn-info">Güncelle</a></td>
+            <td><a href="/Project/GitHubProject/@item.ProjectID" class="btn btn-success">GitHub</a></td>
+        </tr>
+    </tbody>
+    }
+
+</table>
+
+<a href="/Project/AddProject/" class="btn btn-outline-success">Yeni Proje Ekle</a>

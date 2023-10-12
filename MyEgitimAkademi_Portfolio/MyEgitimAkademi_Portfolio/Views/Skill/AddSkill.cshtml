@@ -1,0 +1,18 @@
+﻿@model MyEgitimAkademi_Portfolio.Models.Skill
+@{
+    ViewBag.Title = "AddSkill";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2> Yetenek Ekle</h2>
+
+<form method="post" class="form-group">
+    <label> Yetenek Adı</label>
+    <input type="text" class="form-control" name="SkillTitle">
+    <br />
+    <label> Yetenek Derecesi</label>
+    <input type="text" class="form-control" name="SkillValue">
+    <br />
+    <button class="btn btn-outline-success">Ekle</button>
+</form>
+
+

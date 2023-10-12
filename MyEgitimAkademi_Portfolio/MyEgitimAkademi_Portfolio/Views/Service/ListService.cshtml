@@ -1,0 +1,20 @@
+﻿@model MyEgitimAkademi_Portfolio.Models.Service
+@{
+    ViewBag.Title = "ListService";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>ListService</h2>
+
+@using (Html.BeginForm("ListService", "Service", FormMethod.Post))
+{
+    @Html.HiddenFor(x=> x.ServiceId)
+    <div class="form-group">
+
+        @Html.LabelFor(m => m.ServiceName)
+        @Html.TextBoxFor(m => m.ServiceName, new { @class = "form-control" })
+        <br />
+    </div>
+    <button class="btn btn-warning">Hizmetleri Güncelle </button>
+
+}
